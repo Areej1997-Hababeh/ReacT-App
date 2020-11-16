@@ -50,6 +50,7 @@ import { useFormik } from 'formik';
     <div class="container">
      
       <form id="survey-form" onSubmit={formik.handleSubmit}>
+        {formik}
         
         <label for="name">
           Name
