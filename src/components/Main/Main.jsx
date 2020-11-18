@@ -121,7 +121,7 @@ const Main = () => (
         {errors.role && touched.role && (
           <div className="input-feedback">{errors.role}</div>
         )}
-                <option value="Select current role">
+                <option value="Select current role" disabled selected value>
                   Select current role
             </option>
                 <option value="student">
